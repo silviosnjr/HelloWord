@@ -1,24 +1,25 @@
 body{
     font-family: verdana;
-    background-color: lightcyan;
+    background-color: lightgray;
+    text-align: center;
 }
 
 header{
-    height: 50px;
-    border-bottom: solid black;
+    border-bottom: solid 1px gray;
 }
 
 h1{
     font-size: 35px;
+    color: #444444;
 }
 
 h2{
-    color:darkgreen;
+    color: #f6543b;
     font-size: 25px;
 }
 
 p{
-    color:blue;
+    color:brown;
     font-size: 18px;
 }
 
@@ -27,16 +28,19 @@ p{
 }
 
 footer{
-    border-top: solid black;
+    border-top: solid 1px gray;
 }
 
 footer p{
     font-size: 15px;
-    color: black;    
+    color: gray;    
 }
 
 @media screen and (max-width: 430px) {
     p{
-        font-size: 25px;
+        font-size: 30px;
+    }
+    img{
+        width: 100%;
     }
 }
