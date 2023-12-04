@@ -1,25 +1,25 @@
 body{
     font-family: roboto;
-    background-color: lightgray;
+    background-color: darkslategray;
     text-align: center;
 }
 
 header{
-    border-bottom: solid 1px gray;
+    border-bottom: solid 1px darkgrey;
 }
 
 h1{
     font-size: 35px;
-    color: #444444;
+    color: white;
 }
 
 h2{
-    color: #f6543b;
+    color: orange;
     font-size: 25px;
 }
 
 p{
-    color:brown;
+    color:lightyellow;
     font-size: 18px;
 }
 

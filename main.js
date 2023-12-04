@@ -11,7 +11,7 @@ while (nome === ""){
 
 if (nome !== ""){
     const elementoSaudacoes = document.querySelector("#saudações");
-    elementoSaudacoes.textContent = "Bem-vindo, " + nome;
+    elementoSaudacoes.textContent = "Que bom te ver por aqui, " + nome;
     alert(nome + ", seja bem vindo a minha primeira página web");        
 }else{
     alert("Seja bem vindo a minha primeira página web");
