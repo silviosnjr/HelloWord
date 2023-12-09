@@ -2,4 +2,22 @@ body{
     background-color: darkslategray;
     color: white;
     text-align: center;
+    font-family: Roboto;
+}
+
+p{
+    font-size: 18px;
+}
+
+h2{
+    color: orange;
+}
+
+header{
+    border-bottom: 1px solid gray;
+}
+
+footer{
+    border-top: 1px solid gray;
+    color: gray;
 }
