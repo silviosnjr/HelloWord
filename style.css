@@ -1,46 +1,41 @@
+
 body{
-    font-family: verdana;
-    background-color: lightgray;
+    background-color: darkslategray;
+    color: white;
     text-align: center;
-}
-
-header{
-    border-bottom: solid 1px gray;
-}
-
-h1{
-    font-size: 35px;
-    color: #444444;
-}
-
-h2{
-    color: #f6543b;
-    font-size: 25px;
+    font-family: Roboto;
 }
 
 p{
-    color:brown;
     font-size: 18px;
 }
 
-.texto-em-inglês{
-    font-style: italic;
+h2{
+    color: orange;
+}
+
+header{
+    border-bottom: 1px solid gray;
 }
 
 footer{
-    border-top: solid 1px gray;
+    border-top: 1px solid gray;
+    color: gray;
 }
 
-footer p{
-    font-size: 15px;
-    color: gray;    
+#nome-usuário{
+    font-weight: bold;
 }
 
-@media screen and (max-width: 430px) {
-    p{
-        font-size: 30px;
-    }
+.texto-inglês{
+    font-style: italic;
+}
+
+@media screen and (max-width:420px){
     img{
         width: 100%;
+    }
+    p{
+        font-size: 24px;
     }
 }
