@@ -9,6 +9,10 @@ while (nome === ""){
     nome = perguntaNome();
 }
 
-const elementoSaudacoes = document.querySelector("#nome-usuário");
-elementoSaudacoes.textContent = nome;
-alert(nome + ", seja bem vindo a minha primeira página web");
+if(nome === ""){
+    alert("Seja bem vindo a minha primeira página web"); 
+}else{
+    const elementoSaudacoes = document.querySelector("#nome-usuário");
+    elementoSaudacoes.textContent = nome;
+    alert(nome + ", seja bem vindo a minha primeira página web");
+}
