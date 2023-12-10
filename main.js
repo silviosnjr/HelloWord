@@ -9,10 +9,6 @@ while (nome === ""){
     nome = perguntaNome();
 }
 
-if (nome !== ""){
-    const elementoSaudacoes = document.querySelector("#saudações");
-    elementoSaudacoes.textContent = "Bem-vindo, " + nome;
-    alert(nome + ", seja bem vindo a minha primeira página web");        
-}else{
-    alert("Seja bem vindo a minha primeira página web");
-}
+const elementoSaudacoes = document.querySelector("#nome-usuário");
+elementoSaudacoes.textContent = nome;
+alert(nome + ", seja bem vindo a minha primeira página web");
