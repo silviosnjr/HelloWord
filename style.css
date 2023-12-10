@@ -1,46 +1,40 @@
 body{
-    font-family: roboto;
     background-color: darkslategray;
-    text-align: center;
-}
-
-header{
-    border-bottom: solid 1px darkgrey;
-}
-
-h1{
-    font-size: 35px;
     color: white;
+    text-align: center;
+    font-family: Roboto;
+}
+
+p{
+    font-size: 18px;
 }
 
 h2{
     color: orange;
-    font-size: 25px;
 }
 
-p{
-    color:lightyellow;
-    font-size: 18px;
-}
-
-.texto-em-inglês{
-    font-style: italic;
+header{
+    border-bottom: 1px solid gray;
 }
 
 footer{
-    border-top: solid 1px gray;
+    border-top: 1px solid gray;
+    color: gray;
 }
 
-footer p{
-    font-size: 15px;
-    color: gray;    
+#nome-usuário{
+    font-weight: bold;
 }
 
-@media screen and (max-width: 430px) {
-    p{
-        font-size: 30px;
-    }
+.texto-inglês{
+    font-style: italic;
+}
+
+@media screen and (max-width:420px){
     img{
         width: 100%;
+    }
+    p{
+        font-size: 24px;
     }
 }
