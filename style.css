@@ -1,42 +1,41 @@
+
 body{
-    font-family: verdana;
-    background-color: lightcyan;
-}
-
-header{
-    height: 50px;
-    border-bottom: solid black;
-}
-
-h1{
-    font-size: 35px;
-}
-
-h2{
-    color:darkgreen;
-    font-size: 25px;
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    font-family: Roboto;
 }
 
 p{
-    color:blue;
     font-size: 18px;
 }
 
-.texto-em-inglês{
-    font-style: italic;
+h2{
+    color: orange;
+}
+
+header{
+    border-bottom: 1px solid gray;
 }
 
 footer{
-    border-top: solid black;
+    border-top: 1px solid gray;
+    color: gray;
 }
 
-footer p{
-    font-size: 15px;
-    color: black;    
+#nome-usuário{
+    font-weight: bold;
 }
 
-@media screen and (max-width: 430px) {
+.texto-inglês{
+    font-style: italic;
+}
+
+@media screen and (max-width:420px){
+    img{
+        width: 100%;
+    }
     p{
-        font-size: 25px;
+        font-size: 24px;
     }
 }
