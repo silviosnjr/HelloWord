@@ -29,3 +29,12 @@ footer{
 .texto-inglês{
     font-style: italic;
 }
+
+@media screen and (max-width:420px){
+    img{
+        width: 100%;
+    }
+    p{
+        font-size: 24px;
+    }
+}
