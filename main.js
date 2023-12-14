@@ -1,18 +1,14 @@
-function perguntaNome(){
-    let resposta = prompt("Qual o seu nome ?");    
-    return resposta;
+let usuário = "";
+
+while (usuário === ""){
+    usuário = prompt("Qual o seu nome ?");
 }
 
-let nome = perguntaNome();
-
-while (nome === ""){
-    nome = perguntaNome();
-}
+let elementoSaudações = document.querySelector("#nome-usuário");
 
 if(nome === ""){
     alert("Seja bem vindo a minha primeira página web"); 
 }else{
-    const elementoSaudacoes = document.querySelector("#nome-usuário");
     elementoSaudacoes.textContent = nome;
     alert(nome + ", seja bem vindo a minha primeira página web");
 }
