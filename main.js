@@ -9,6 +9,6 @@ let elementoSaudações = document.querySelector("#nome-usuário");
 if(nome === ""){
     alert("Seja bem vindo a minha primeira página web"); 
 }else{
-    elementoSaudacoes.textContent = nome;
+    elementoSaudações.textContent = nome;
     alert(nome + ", seja bem vindo a minha primeira página web");
 }
