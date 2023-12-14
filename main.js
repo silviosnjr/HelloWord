@@ -6,9 +6,8 @@ while (usuário === ""){
 
 let elementoSaudações = document.querySelector("#nome-usuário");
 
-if(nome === ""){
-    alert("Seja bem vindo a minha primeira página web"); 
+if (usuário === null){
+    elementoSaudações.textContent = "seja muito bem vindo!"
 }else{
-    elementoSaudações.textContent = nome;
-    alert(nome + ", seja bem vindo a minha primeira página web");
+    elementoSaudações.textContent = usuário;
 }
